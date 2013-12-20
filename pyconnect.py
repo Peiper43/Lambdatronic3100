@@ -259,7 +259,7 @@ while True:
                     sData = sData[i:]
                     break
 
-        if tryCheckSum(sData) is not True:
+        if tryCheckSum(sData) != True:
             break
 
     # Get date and time
@@ -269,7 +269,7 @@ while True:
 
         # Code...
 
-        if bBlogSend is False:
+        if bBlogSend == False:
 
             sSend = getAck(sData) + getAck(sData)
             bBlogSend = True
