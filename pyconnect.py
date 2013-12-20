@@ -58,7 +58,7 @@ iLaufzeit = 0
 sFeuererhalt = ""
 iBoardTemp = 0
 
-# Define array for storing Lambdatronic values
+# Define dict for storing Lambdatronic values
 aLambdatronicValues = {
     "Kesselzustand": sZustand,
     "Rest O2": iRestO2,
